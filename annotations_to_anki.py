@@ -1,5 +1,5 @@
 import os #用于改变系统工作路径
-import re #正则表达式
+import re #正则表达式 
 
 os.chdir("C:/Users/hu/Desktop") #改变工作路径到桌面
 with open("2.txt","r",encoding='utf-8') as f:
